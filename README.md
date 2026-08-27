@@ -2,14 +2,6 @@
 
 This project contains a computational workflow for prioritising small-molecule candidates designed to bind the Trp32/Loop II region of mutant superoxide dismutase 1 (SOD1). The workflow combines docking and pose-quality measures with physicochemical, ADMET and stereochemical properties to identify candidates for further investigation as protein-of-interest (POI) ligands in a potential SOD1-targeted PROTAC strategy.
 
-## Background
-
-Motor neurone disease (MND), including amyotrophic lateral sclerosis (ALS), is a progressive neurodegenerative disease involving the loss of motor neurons. SOD1 is one of the best-characterised genes associated with familial ALS. Disease-associated SOD1 variants can destabilise the native protein, promote misfolding and aggregation, and produce a toxic gain of function.
-
-This project focuses on mutant SOD1 as a structurally defined and ligandable target. The Trp32/Loop II region provides a non-covalent binding site that can be explored through fragment-based design and molecular docking. A ligand for this site could provide the POI-binding component of a PROTAC: a bifunctional molecule that links a target-protein ligand to an E3 ubiquitin-ligase recruiter through a chemical linker. The resulting ternary complex can promote ubiquitination and subsequent proteasomal degradation of the target protein.
-
-The non-covalent nature of the Trp32/Loop II ligand is important for this strategy. Reversible binding allows the PROTAC to participate in repeated cycles of ternary-complex formation, ubiquitination and dissociation, rather than remaining permanently attached to the target.
-
 ## Project Aim
 
 The aim is to rank a library of `MOL-*` candidates and identify molecules that provide a balanced combination of:
