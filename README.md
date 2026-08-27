@@ -137,8 +137,6 @@ pip install -r requirements.txt
 
 ### Project License
 
-This project is provided under the **MIT License** (or as specified by your institution). See the LICENSE file for full details.
-
 ### Third-Party Package Licenses
 
 This project uses open-source packages with the following licenses:
