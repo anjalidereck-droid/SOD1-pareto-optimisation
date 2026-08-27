@@ -108,3 +108,45 @@ These candidates are computational priorities for subsequent evaluation and are 
 ## Reproducibility
 
 The analysis was developed using **Python 3.14.2**. To run the notebook, provide the project input workbook in the expected local path and install the Python dependencies used by the notebook, including `pandas` and `numpy`. The input data are intentionally excluded from this public repository.
+
+## Requirements
+
+This project requires the following Python packages:
+
+| Package | Version | Purpose |
+|---------|---------|---------|
+| `pandas` | ≥ 2.0.0 | Data manipulation and analysis |
+| `numpy` | ≥ 1.24.0 | Numerical computing |
+| `openpyxl` | ≥ 3.0.0 | Reading and writing Excel (.xlsx) files |
+
+### Installation
+
+Install all dependencies using pip:
+
+```bash
+pip install pandas numpy openpyxl
+```
+
+Or, if you have a `requirements.txt` file in the project:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Licenses
+
+### Project License
+
+This project is provided under the **MIT License** (or as specified by your institution). See the LICENSE file for full details.
+
+### Third-Party Package Licenses
+
+This project uses open-source packages with the following licenses:
+
+| Package | License | Link |
+|---------|---------|------|
+| `pandas` | BSD 3-Clause | https://github.com/pandas-dev/pandas/blob/main/LICENSE |
+| `numpy` | BSD 3-Clause | https://github.com/numpy/numpy/blob/main/LICENSE.txt |
+| `openpyxl` | MIT | https://github.com/JazzBand/openpyxl/blob/master/LICENSE |
+
+All third-party packages are open-source and compatible with academic and research use. Please refer to the respective repositories for complete license information.
