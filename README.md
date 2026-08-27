@@ -95,12 +95,15 @@ Stage 2 is a tie-break and refinement step. It does not override the Stage 1 Par
 
 The workflow starts with **142 molecules**. After applying the required characteristics and ranking workflow, **58 molecules** remain for prioritisation. The final presentation includes the **top 10 candidates from Template 1** and the **top 10 candidates from Template 2**.
 
+![Molecule selection funnel](molecule_selection_funnel.svg)
+
 These candidates are computational priorities for subsequent evaluation and are not, by ranking alone, confirmed binders or experimentally validated degraders.
 
 ## Repository Contents
 
 - `pareto_analysis.ipynb`: notebook containing the analysis workflow.
 - `README.md`: project background and explanation of the ranking methodology.
+- `molecule_selection_funnel.svg`: infographic summarising the candidate-selection workflow.
 
 ## Reproducibility
 
