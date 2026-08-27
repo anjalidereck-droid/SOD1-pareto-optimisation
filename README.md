@@ -1,6 +1,6 @@
 # SOD1 Docking: Pareto Optimisation and Molecule Ranking
 
-This project contains a computational workflow for prioritising small-molecule candidates designed to bind the Trp32/Loop II region of mutant superoxide dismutase 1 (SOD1). The workflow combines docking and pose-quality measures with physicochemical, ADMET and stereochemical properties to identify candidates for further investigation as protein-of-interest (POI) ligands in a potential SOD1-targeted PROTAC strategy.
+The workflow combines docking and pose-quality measures with physicochemical, ADMET and stereochemical properties to identify candidates for further investigation as protein-of-interest (POI) ligands in a potential SOD1-targeted PROTAC strategy.
 
 ## Project Aim
 
