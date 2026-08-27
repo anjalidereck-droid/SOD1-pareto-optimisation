@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Molecule selection funnel</title>
+  <desc id="desc">A three-stage funnel showing 142 molecules reduced to 58 prioritised molecules and then to the top 10 candidates from Template 1 and the top 10 candidates from Template 2.</desc>
+  <defs>
+    <linearGradient id="funnel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#155e75"/>
+    </linearGradient>
+    <linearGradient id="final1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d97706"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="final2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#be185d"/>
+      <stop offset="1" stop-color="#9d174d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#164e63" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="#f8fafc"/>
+  <path d="M0 0h1200v90c-260 48-650 40-1200 0z" fill="#ecfeff"/>
+  <text x="600" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#164e63">Molecule selection funnel</text>
+  <text x="600" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#475569">From broad candidate library to template-specific priorities</text>
+
+  <g filter="url(#shadow)">
+    <path d="M130 180h940l-205 310H335z" fill="url(#funnel)"/>
+    <path d="M335 490h530l-125 112H460z" fill="#0e7490"/>
+  </g>
+
+  <g fill="#ffffff" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="267" font-size="64" font-weight="700">142</text>
+    <text x="600" y="306" font-size="23" font-weight="700">molecules</text>
+    <text x="600" y="345" font-size="18" opacity="0.92">Initial candidate library</text>
+
+    <text x="600" y="433" font-size="54" font-weight="700">58</text>
+    <text x="600" y="469" font-size="21" font-weight="700">molecules retained</text>
+    <text x="600" y="502" font-size="16" opacity="0.92">Required characteristics + ranking workflow</text>
+  </g>
+
+  <path d="M600 620v35" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <path d="m588 648 12 14 12-14" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="674" width="400" height="68" rx="10" fill="url(#final1)"/>
+    <rect x="680" y="674" width="400" height="68" rx="10" fill="url(#final2)"/>
+  </g>
+  <g fill="#ffffff" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="320" y="714" font-size="25" font-weight="700">Top 10 candidates</text>
+    <text x="320" y="738" font-size="17">Template 1</text>
+    <text x="880" y="714" font-size="25" font-weight="700">Top 10 candidates</text>
+    <text x="880" y="738" font-size="17">Template 2</text>
+  </g>
+</svg>
