@@ -104,4 +104,4 @@ These candidates are computational priorities for subsequent evaluation and are 
 
 ## Reproducibility
 
-To run the notebook, provide the project input workbook in the expected local path and install the Python dependencies used by the notebook, including `pandas` and `numpy`. The input data are intentionally excluded from this public repository.
+The analysis was developed using **Python 3.14.2**. To run the notebook, provide the project input workbook in the expected local path and install the Python dependencies used by the notebook, including `pandas` and `numpy`. The input data are intentionally excluded from this public repository.
